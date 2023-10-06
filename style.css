@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;1,500&family=DM+Serif+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;1,500&family=DM+Serif+Display&display=swap');
+   
+body{
+    color: #4D5053;
+    font-family: Jost;
+    font-size: 22px;
+    line-height: 1.50; 
+    letter-spacing: 0.22px;
+}
+.container{
+    max-width: 1200px;
+    margin: 0px auto;
+    /* background-color: burlywood; */
+}
+a {
+    text-decoration: none;
+}
+/* -------------header -------------------- */
+.header {
+}
+.logo {
+}
+.nav {
+}
+.nav-list {
+}
+.nav-item {
+}
+/* -------------banner -------------------- */
+.banner {
+}
+.banner-title {
+}
+.banner-text {
+}
+.banner-btn {
+}
+/* -------------fetures -------------------- */
+.fetures {
+}
+.features-list {
+}
+.features-item {
+}
+/* -------------project -------------------- */
+.project {
+}
+.wrap {
+}
+.project-title {
+}
+.project-text {
+}
+/* -------------brand -------------------- */
+.brand {
+}
+.brand-list {
+}
+.brand-item {
+}
+/* -------------projects -------------------- */
+.projects {
+}
+.projects-title {
+}
+.projects-text {
+}
+.projects-list {
+}
+.project-item {
+}
+/* -------------footer -------------------- */
+.footer {
+}
+.footer-info {
+}
+.footer-logo {
+}
+.footer-text {
+}
+.social-list {
+}
+.social-item {
+}
+.footer-copyright {
+}
