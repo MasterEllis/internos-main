@@ -16,6 +16,21 @@ body{
 a {
     text-decoration: none;
 }
+.my-animation{
+    animation: my_animation 3s;
+}
+@keyframes my_animation {
+    0%,
+    20%,
+    40% {transform: scale (1);
+        opacity:0};
+    10%,
+    30%,
+    50% {transform: scale (1.1);
+        opacity:1};
+    100% {transform: scale (1);
+         translateX:-900;};
+}
 /* -------------header -------------------- */
 .header {
     height: 105px;
@@ -61,8 +76,9 @@ a {
     margin-bottom: 35px;
 }
 .banner-btn {
-    background-color: #292F36;
- 
+    /* background-color: #292F36; */
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(138,98,129,0.9612219887955182) 51%, rgba(2,0,36,1) 100%);
+   background-size: 200% auto;
     color:white;
     width: 207px;
     height: 71px;
@@ -73,7 +89,8 @@ a {
 }
 .banner-btn:hover{
     /* background-color: #154f91; */
-    transform:scale(1.1);
+    /* transform:scale(1.1); */
+    background-position: right center;
 }
 
 /* -------------fetures -------------------- */
