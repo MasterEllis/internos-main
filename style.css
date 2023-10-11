@@ -28,7 +28,7 @@ a {
     30%,
     50% {transform: scale(1.1);
         opacity:1;}
-    100% {transform: translateX(-900px);}
+    100% {transform: scale(1.1) translateX(-900px);}
 }
 /* -------------header -------------------- */
 .header {
